@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "udp-pinger"
+version = "1.0.0"
+description = "A production-minded UDP ping client and packet-loss simulation server."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "UDP Pinger Maintainers" }]
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+udp-pinger = "udp_pinger.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["udp_pinger*"]
