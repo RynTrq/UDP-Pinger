@@ -1,5 +1,7 @@
 # UDP Pinger
 
+[![Verify](https://github.com/RynTrq/UDP-Pinger/actions/workflows/verify.yml/badge.svg)](https://github.com/RynTrq/UDP-Pinger/actions/workflows/verify.yml)
+
 UDP Pinger is a small, production-minded Python project for measuring UDP round-trip latency and simulating packet loss. It started as a socket-programming assignment and has been upgraded into an importable package with a clean CLI, deterministic tests, robust validation, and compatibility wrappers for the original assignment scripts.
 
 ## What It Does
